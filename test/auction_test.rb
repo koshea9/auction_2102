@@ -121,7 +121,7 @@ def test_it_can_list_unpopular_items
   end
 
   def test_it_can_calculate_potential_revenue
-    skip
+
     item1 = Item.new('Chalkware Piggy Bank')
     item2 = Item.new('Bamboo Picture Frame')
     item3 = Item.new('Homemade Chocolate Chip Cookies')
@@ -168,6 +168,7 @@ def test_it_can_list_unpopular_items
   end
 
   def test_it_can_list_bidders_info
+    # skip
     item1 = Item.new('Chalkware Piggy Bank')
     item2 = Item.new('Bamboo Picture Frame')
     item3 = Item.new('Homemade Chocolate Chip Cookies')
