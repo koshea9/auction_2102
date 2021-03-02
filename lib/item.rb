@@ -13,7 +13,10 @@ class Item
   end
 
   def current_high_bid
-    0 if @bids.values.nil?
+    if @bids.values.nil?
+      return 0
+    else
     @bids.values.max
+    end
   end
 end
